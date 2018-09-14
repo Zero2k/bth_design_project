@@ -1,0 +1,30 @@
+/**
+ * Show grid.
+ */
+.showGrid(@maxWidth: 1100px, @gridImg) {
+    //background: url(../img/grid/grid950x24x30x10-nomargin.png) repeat-y fixed center center;
+    background: url(@gridImg) repeat-y fixed center center;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: @maxWidth;
+
+
+    @media (min-width: @maxWidth) {
+        background-size: @maxWidth auto;
+    }
+}
+
+.showTypoGrid(@gridImg) {
+    background-image: url(@gridImg);
+    background-color: #FFE6D5;
+    /*background: url(../img/grid/horisontal-grid-24.png) repeat-x fixed center center;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;*/
+    //max-width: @maxWidth;
+
+    //@media (min-width: @maxWidth) {
+    //    background-size: @maxWidth auto;
+    //}
+}
