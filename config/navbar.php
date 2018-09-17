@@ -32,6 +32,12 @@ return [
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About")
             ],
+
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme")
+            ],
         ],
     ],
 

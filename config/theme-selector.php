@@ -15,7 +15,7 @@ return [
             "title"      => "Minimal style, only the plain base",
             "class"      => "",
             "stylesheets" => [
-                "css/modules.min.css"
+                "css/style.min.css"
             ]
         ],
 
@@ -44,26 +44,6 @@ return [
         "dark"      => [
             "title"      => "Dark background and light text",
             "class"      => "dark",
-            "stylesheets" => []
-        ],
-
-        "colorful"  => [
-            "title"      => "Make a very colorful theme",
-            "class"      => "colorful",
-            "stylesheets" => []
-        ],
-
-        "typography" => [
-            "title"      => "A theme where the typography really stands out",
-            "class"      => "light",
-            "stylesheets" => []
-        ],
-
-        "separator2" => "------------------------------------------------",
-
-        "fun"       => [
-            "title"      => "All fun, test and play, make it stand out!",
-            "class"      => "fun",
             "stylesheets" => []
         ],
     ]

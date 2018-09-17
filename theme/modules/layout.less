@@ -15,6 +15,7 @@
 
 @gradient-start: linear-gradient(to top, #47d5fd, #38bffe, #51a6f9);
 @gradient-end: linear-gradient(to bottom, #51a6f9, #758ae9, #956bcd);
+@gradient: linear-gradient(to top, #51a5f8, #51a6f9, #758ae9, #956bcd);
 
 body {
     background-color: white;
@@ -36,7 +37,6 @@ body {
     .row();
 }
 
-.outer-wrap-main,
 .after-main,
 .footer-column-wrapper {
     margin-bottom: @magicNumber;
@@ -44,12 +44,19 @@ body {
 
 .outer-wrap-header {
     width: 100%;
-    background-image: @gradient-start;
+    background: linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
 }
 
 .outer-wrap-footer {
+    padding-top: 70px;
     width: 100%;
-    background-image: @gradient-end;
+    
+    background-attachment: fixed;
+    background-position: bottom;
+    background-image:linear-gradient(45deg, rgba(163, 64, 255, 0.9) 0%, rgba(163,64,255,0.9) 20%, rgba(163,64,255,0.9) 12%, rgba(255,58,81,0.9) 85%, rgba(255,58,81,0.9) 91%, rgba(255,58,81,0.9) 100%),
+    url(https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1400);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .site-header {
@@ -59,6 +66,12 @@ body {
         .column(12);
         font-size: 2em;
         margin-top: 10px;
+
+        & img {
+            height: 100%;
+            width: 238px;
+            vertical-align: middle;
+        }
 
         & a {
             color: #fff;
@@ -74,20 +87,35 @@ body {
     }
 }
 
-.flash-wrap {
-    padding-top: 24px;
-    margin: 0;
-    width: 100%;
-    background: url(../../htdocs/img/dbwebbisar.jpg) no-repeat fixed;
-    background-size: auto auto;
+.inner-wrap-flash {
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-image:linear-gradient(45deg, rgba(163, 64, 255, 0.9) 0%, rgba(163,64,255,0.9) 20%, rgba(163,64,255,0.9) 12%, rgba(255,58,81,0.9) 85%, rgba(255,58,81,0.9) 91%, rgba(255,58,81,0.9) 100%),
+    url(https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1400);
+    background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
-    text-align: center;
+}
+
+.flash-wrap {
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .main {
     .column(24);
-    //.push(1);
+}
+
+.wrap-all {
+    background-color: #38bffe;
+}
+
+.outer-wrap-main {
+    background-color: #fff;
+    padding: 100px 0;
 }
 
 .main.has-sidebar-left {
@@ -101,6 +129,11 @@ body {
 
 .sidebar {
     .column(6);
+
+    & ul {
+        padding: 0;
+        list-style-type: none;
+    }
 }
 
 .next-previous {
@@ -128,6 +161,9 @@ body {
 }
 
 .footer-column-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+
     margin-bottom: @magicNumber;
 }
 
