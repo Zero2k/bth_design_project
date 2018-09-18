@@ -1,5 +1,3 @@
-####Anax Flat
+####About Us
 
-To build websites based on markup documents and configuration in YAML.
-
-[Get going](http://dbwebb.se/kunskap/bygg-me-sida-med-anax-flat).
+We are a young company always looking for new and creative ideas to help you with our products in your everyday work.

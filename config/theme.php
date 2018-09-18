@@ -22,7 +22,7 @@ return [
 
             // Style and stylesheets
             /* "stylesheets" => ["css/default.min.css"], */
-            "stylesheets" => ["css/style.min.css", "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"],
+            "stylesheets" => ["css/style.min.css", "http://fonts.googleapis.com/css?family=Open+Sans|Varela+Round:300italic,400italic,700italic,200,300,400,500,600,700"],
             "styleInline" => null,
 
             // JavaScript

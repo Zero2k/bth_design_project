@@ -19,6 +19,7 @@
 
 body {
     background-color: white;
+    font-family: "Varela Round";
 }
 
 .inner-wrap.inner-wrap-header {
@@ -43,7 +44,12 @@ body {
 }
 
 .outer-wrap-header {
+    position: fixed;
     width: 100%;
+    background: linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
+}
+
+.outer-wrap-breadcrumb {
     background: linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
 }
 
@@ -102,7 +108,7 @@ body {
 
 .flash-wrap {
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .main {
@@ -116,6 +122,10 @@ body {
 .outer-wrap-main {
     background-color: #fff;
     padding: 100px 0;
+}
+
+.main.has-sidebar-right {
+    .column(18);
 }
 
 .main.has-sidebar-left {
@@ -136,6 +146,10 @@ body {
     }
 }
 
+/* .sidebar-right {
+    border-left: 1px solid #c5b358;
+} */
+
 .next-previous {
     width: 100%;
     padding-top: 10px;
@@ -152,19 +166,29 @@ body {
 .footer-column {
     .column(@columns / 3);
     color: white;
+    line-height: 30px;
 
     ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+
+    ul a {
+        color: #FFF;
     }
 }
 
 .footer-column-wrapper {
     display: flex;
     flex-flow: row wrap;
+    border-bottom: 1px solid #FFF;
 
     margin-bottom: @magicNumber;
+    padding-bottom: @magicNumber;
 }
 
 .footer-column-wrapper {

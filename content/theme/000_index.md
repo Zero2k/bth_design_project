@@ -1,4 +1,4 @@
 Themes
 ==============================================
 
-What about cookies?
+Change theme with the [theme-selector](theme-selector)
