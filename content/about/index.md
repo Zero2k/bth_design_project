@@ -1,4 +1,4 @@
-About this site
+About
 ==============================================
 
 The primary focus of this site is to:

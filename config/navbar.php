@@ -20,6 +20,13 @@ return [
                 "title" => ""
             ],
 
+            "our-work" => [
+                "text"  => t("Our Work"),
+                "url"   => $this->di->get("url")->create("our-work"),
+                "title" => t("Our Work"),
+                "mark-if-parent" => true,
+            ],
+
             "blog" => [
                 "text"  => t("Blog"),
                 "url"   => $this->di->get("url")->create("blog"),

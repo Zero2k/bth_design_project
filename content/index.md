@@ -12,3 +12,9 @@ This is a website created using Anax Flat as a base. This is the base website to
 
 Cheers and happy building of websites,  
 /Mikael
+
+<div class="row">
+    <div class="column-one-third">test</div>
+    <div class="column-one-third">test</div>
+    <div class="column-one-third">test</div>
+</div>
