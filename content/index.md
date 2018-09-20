@@ -1,20 +1,45 @@
 ---
 titleBreadcrumb: Home
 ...
-A website using Anax Flat
-===============================
 
-Hi there.
+<div class="row section-center">
+    <div class="column-one-third">
+        <i class="fas fa-desktop fa-10x"></i>
+        <h3>Web Development</h3>
+        <p>Looking for a dedicated JS agile development team? Get in touch now! Get in touch for a quote.</p>
+    </div>
+    <div class="column-one-third">
+        <i class="fa fa-chart-line fa-10x"></i>
+        <h3>Web Strategy</h3>
+        <p>Leverage owned media value in your business to increase revenue and improve partnerships.</p>
+    </div>
+    <div class="column-one-third">
+        <i class="fas fa-pencil-alt fa-10x"></i>
+        <h3>Logo & Profile</h3>
+        <p>Graphic designers specializing in logo design with 100% satisfaction guarantee.</p>
+    </div>
+</div>
 
-Nice of you to stop by.
+<div class="row section v-center">
+    <div class="column-one-half">
+        <h3>The Full Stack Web Development</h3>
+        <p>We have more than 10+ Years of Experience and we can do everything from Front- to Back-end Development with cutting edge technologies. Once complete we maintain all the components necessary to run your service.</p>
+    </div>
+    <div class="column-one-half center"><img src="img/stack.png" style="width: 250px"></div>
+</div>
 
-This is a website created using Anax Flat as a base. This is the base website to be used in the dbwebb course *design*.
+<div class="row section v-center">
+    <div class="column-one-half center"><img src="img/graphql.png" style="width: 250px"></div>
+    <div class="column-one-half">
+        <h3>GraphQL - A query language for your API</h3>
+        <p>GraphQL is an open source data query and manipulation language, and a runtime for fulfilling queries with existing data. GraphQL has taken the API world by storm as an alternative to REST APIs.</p>
+    </div>
+</div>
 
-Cheers and happy building of websites,  
-/Mikael
-
-<div class="row">
-    <div class="column-one-third">test</div>
-    <div class="column-one-third">test</div>
-    <div class="column-one-third">test</div>
+<div class="row section v-center">
+    <div class="column-one-half">
+        <h3>Node.js - Scalable Web Apps</h3>
+        <p>Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. We help you write extremely Scalable Services with Node.js, Express.js and GraphQL.</p>
+    </div>
+    <div class="column-one-half center"><img src="img/node.png" style="width: 250px"></div>
 </div>
