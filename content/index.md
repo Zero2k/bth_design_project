@@ -3,17 +3,17 @@ titleBreadcrumb: Home
 ...
 
 <div class="row section-center">
-    <div class="column-one-third">
+    <div class="column-one-third hover">
         <i class="fas fa-desktop fa-10x"></i>
         <h3>Web Development</h3>
         <p>Looking for a dedicated JS agile development team? Get in touch now! Get in touch for a quote.</p>
     </div>
-    <div class="column-one-third">
+    <div class="column-one-third hover">
         <i class="fa fa-chart-line fa-10x"></i>
         <h3>Web Strategy</h3>
         <p>Leverage owned media value in your business to increase revenue and improve partnerships.</p>
     </div>
-    <div class="column-one-third">
+    <div class="column-one-third hover">
         <i class="fas fa-pencil-alt fa-10x"></i>
         <h3>Logo & Profile</h3>
         <p>Graphic designers specializing in logo design with 100% satisfaction guarantee.</p>
@@ -42,4 +42,13 @@ titleBreadcrumb: Home
         <p>Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. We help you write extremely Scalable Services with Node.js, Express.js and GraphQL.</p>
     </div>
     <div class="column-one-half center"><img src="img/node.png" style="width: 250px"></div>
+</div>
+
+<div class="row section v-center">
+    <h3>Get inspiration delivered to your inbox:</h3>
+    <form class="form-inline" action="#">
+        <input type="text" id="email" placeholder="J. Doe" name="name">
+        <input type="email" id="pwd" placeholder="j@doe.com" name="email">
+        <button type="submit">Send</button>
+    </form>
 </div>

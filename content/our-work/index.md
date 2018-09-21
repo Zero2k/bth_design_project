@@ -12,22 +12,13 @@ views:
 
     blog-list:
         region: main
-        template: default/blog-list
+        template: work/our-work
         sort: 2
         data:
             dateFormat: j F Y
             meta: 
                 type: toc
                 items: 10
-
-    blog-toc:
-        region: sidebar-right
-        template: default/blog-toc
-        sort: 2
-        data:
-            meta: 
-                type: copy
-                view: blog-list
 
 ...
 Our Work
