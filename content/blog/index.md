@@ -33,4 +33,4 @@ views:
 Blog
 ===========================
 
-Dagens foto presenteras med en kort beskrivning om hur det gick till när bilden togs.
+Looking to learn SEO? Or do you just want to stay up to date with the latest industry news?

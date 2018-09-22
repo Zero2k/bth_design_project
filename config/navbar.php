@@ -68,6 +68,13 @@ return [
                 "title" => ""
             ],
 
+            "our-work" => [
+                "text"  => t("Our Work"),
+                "url"   => $this->di->get("url")->create("our-work"),
+                "title" => t("Our Work"),
+                "mark-if-parent" => true,
+            ],
+
             "blog" => [
                 "text"  => t("Blog"),
                 "url"   => $this->di->get("url")->create("blog"),
@@ -79,6 +86,12 @@ return [
                 "text"  => t("About"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About")
+            ],
+
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme")
             ],
         ],
     ],

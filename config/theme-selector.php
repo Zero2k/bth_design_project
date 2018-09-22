@@ -15,7 +15,7 @@ return [
             "title"      => "Minimal style, only the plain base",
             "class"      => "",
             "stylesheets" => [
-                "css/style.min.css"
+                "css/default.min.css"
             ]
         ],
 
@@ -23,7 +23,7 @@ return [
             "title"      => "Your own selected default theme",
             "class"      => "",
             "stylesheets" => [
-                "css/default.min.css"
+                "css/style.min.css"
             ]
         ],
 
