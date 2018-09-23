@@ -17,7 +17,7 @@ return [
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
-            "title_append"  => " | Anax Flat",
+            "title_append"  => " | Dev Corp",
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
@@ -52,7 +52,7 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "",
-                "siteLogoTextIcon" => "http://onepagestudio.projectsmd.in/events/images/theme-logo.png",
+                "siteLogoTextIcon" => "img/logo.png",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",

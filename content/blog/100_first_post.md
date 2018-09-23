@@ -1,6 +1,6 @@
 ---
-author: mos
-published: "2016-11-15"
+author: devcorp
+published: "2018-09-21"
 category:
     - seo, marketing
 ...

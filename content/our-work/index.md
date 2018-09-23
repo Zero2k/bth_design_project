@@ -24,4 +24,4 @@ views:
 Our Work
 ===========================
 
-Dagens foto presenteras med en kort beskrivning om hur det gick till när bilden togs.
+Dev Corp is a cutting edge web design company. We build fresh, innovative, websites that are easy to use. Here is our online portfolio of web design and build projects.
