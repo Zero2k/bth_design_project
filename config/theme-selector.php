@@ -29,10 +29,12 @@ return [
 
         "separator1" => "------------------------------------------------",
 
-        "light"     =>  [
-            "title"      => "Very light theme, white, black and nuances of grey",
-            "class"      => "light",
-            "stylesheets" => []
+        "custom"     =>  [
+            "title"      => "Theme with fixed width",
+            "class"      => "custom",
+            "stylesheets" => [
+                "css/style1.min.css"
+            ]
         ],
 
         "color"     => [

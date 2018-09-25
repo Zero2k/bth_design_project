@@ -21,3 +21,5 @@ Dev Corp is a leading consulting and software development company operating worl
         <p>Lines of Code</p>
     </div>
 </div>
+
+### About the project

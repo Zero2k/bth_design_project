@@ -1,0 +1,133 @@
+/** 
+* Theme - Custom.
+*/
+@import url(style.less);
+
+@gridImage: '../img/grid950x24x30x10-nomargin.png';
+@hgridImage: '../img/horisontal-grid-24.png';
+
+@maxWidth: 950px;
+@maxWidthPercent: 100%;
+
+html.custom {
+    .wrap-all {
+        background-color: #eaeaea;
+    }
+
+    .inner-wrap.inner-wrap-header {
+        .container(@maxWidth);
+    }
+    
+    .inner-wrap.inner-wrap-flash {
+        .container(@maxWidth);
+    }
+    
+    .inner-wrap {
+        .container(@maxWidth);
+    }
+
+    .outer-wrap-header {
+        position: unset;
+        width: @maxWidth;
+        background: linear-gradient(45deg,rgba(163,64,255,.9) 0,rgba(163,64,255,.9) 20%,rgba(163,64,255,.9) 12%,rgba(255,58,81,.9) 85%,rgba(255,58,81,.9) 91%,rgba(255,58,81,.9) 100%),url(https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1400);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
+        margin: 0 auto;
+    }
+
+    .inner-wrap-flash {
+        /* Set a specific height */
+        min-height: 300px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-image: @gradient;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .flash-wrap {
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .outer-wrap-breadcrumb {
+        width: @maxWidth;
+        margin: 0 auto;
+    }
+
+    .outer-wrap-main {
+        background-color: #fff;
+        width: @maxWidth;
+        margin: 0 auto;
+    }
+
+    .outer-wrap-after-main {
+        background-color: #f2f2f2;
+        width: @maxWidth;
+        margin: 0 auto;
+    }
+
+    .outer-wrap-footer {
+        padding-top: 40px;
+        width: @maxWidth;
+        
+        background-attachment: fixed;
+        background-position: bottom;
+        background-image: @gradient;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    html.min-width.vgrid {
+        .inner-wrap-header {
+            .showGrid(@maxWidth, @gridImage);
+        }
+        .inner-wrap-breadcrumb {
+            .showGrid(@maxWidth, @gridImage);
+        }
+        .inner-wrap-main {
+            .showGrid(@maxWidth, @gridImage);
+        }
+        .inner-wrap-footer {
+            .showGrid(@maxWidth, @gridImage);
+        }
+    }
+
+    html.min-width.hgrid {
+        .inner-wrap-main {
+            .showTypoGrid(@hgridImage)
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .outer-wrap-header,
+        .outer-wrap-breadcrumb,
+        .outer-wrap-main,
+        .outer-wrap-after-main,
+        .outer-wrap-footer {
+            width: @maxWidthPercent;
+        }
+    
+        .inner-wrap-flash {
+            min-height: 200px;
+        }
+
+        .flash-wrap {
+            margin: 0 auto;
+            padding-top: 25px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .inner-wrap-flash {
+            min-height: 190px;
+        }
+
+        .flash-wrap {
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+    }
+}
