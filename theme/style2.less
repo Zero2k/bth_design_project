@@ -1,0 +1,28 @@
+/** 
+* Theme - Alternative.
+*/
+@import url(style.less);
+
+@gridImage: '../img/grid950x24x30x10-nomargin.png';
+@hgridImage: '../img/horisontal-grid-24.png';
+
+@maxWidth: 950px;
+@maxWidthPercent: 100%;
+
+html.alternative {
+    .wrap-all {
+        background-color: #535353;
+    }
+
+    .inner-wrap.inner-wrap-header {
+        .container(@maxWidth);
+    }
+    
+    .inner-wrap.inner-wrap-flash {
+        .container(@maxWidthPercent);
+    }
+    
+    .inner-wrap {
+        .container(@maxWidth);
+    }
+}

@@ -37,10 +37,12 @@ return [
             ]
         ],
 
-        "color"     => [
-            "title"      => "Enhance the light theme by adding a tiny bit of color",
-            "class"      => "color",
-            "stylesheets" => []
+        "alternative"     => [
+            "title"      => "Alternative style",
+            "class"      => "alternative",
+            "stylesheets" => [
+                "css/style2.min.css"
+            ]
         ],
 
         "dark"      => [

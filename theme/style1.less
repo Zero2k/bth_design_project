@@ -34,23 +34,6 @@ html.custom {
         margin: 0 auto;
     }
 
-    .inner-wrap-flash {
-        /* Set a specific height */
-        min-height: 300px;
-    
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-image: @gradient;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .flash-wrap {
-        margin: 0 auto;
-        padding-top: 50px;
-    }
-
     .outer-wrap-breadcrumb {
         width: @maxWidth;
         margin: 0 auto;
@@ -109,22 +92,9 @@ html.custom {
         .outer-wrap-footer {
             width: @maxWidthPercent;
         }
-    
-        .inner-wrap-flash {
-            min-height: 200px;
-        }
-
-        .flash-wrap {
-            margin: 0 auto;
-            padding-top: 25px;
-        }
     }
 
     @media screen and (max-width: 500px) {
-        .inner-wrap-flash {
-            min-height: 190px;
-        }
-
         .flash-wrap {
             margin: 0 auto;
             padding-top: 40px;

@@ -1,0 +1,49 @@
+.inner-wrap-flash {
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-image: @gradient;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flash-wrap {
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 1020px) {
+    .flash-wrap {
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .inner-wrap-flash {
+        min-height: 300px;
+    }
+
+    .flash-wrap {
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .inner-wrap-flash {
+        min-height: 250px;
+    }
+
+    .flash-wrap {
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .inner-wrap-flash {
+        min-height: 200px;
+    }
+}
