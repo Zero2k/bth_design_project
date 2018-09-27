@@ -9,7 +9,24 @@
 @maxWidth: 950px;
 @maxWidthPercent: 100%;
 
+@gradient: linear-gradient(180deg,rgba(182, 207, 129, 0.9) 0,rgba(160, 227, 21, 0.9) 68%),
+url(https://eusbf10p4zh1kzrai2rg2qyf-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/FEATURED_An-Overview-of-the-Top-7-Software-Development-Methodologies-1080x675.jpeg);
+
+@lightgreyColor: #474B4F;
+@greyColor: #222629;
+@greenColor: #86C232;
+@darkgreenyColor: #61892F;
+
 html.alternative {
+    a {
+        text-decoration: none;
+        color: #86C232;
+
+        &:hover {
+            color: #61892F;
+        }
+    }
+
     .wrap-all {
         background-color: #535353;
     }
@@ -24,5 +41,100 @@ html.alternative {
     
     .inner-wrap {
         .container(@maxWidth);
+    }
+
+    .outer-wrap-header {
+        background: @greyColor;
+    }
+
+    .outer-wrap-breadcrumb {
+        background: @greyColor;
+
+        .breadcrumb-list li + li::before {
+            padding: 8px;
+            color: #fff;
+            content: "/\00a0";
+        }
+    }
+
+    .hover {
+        i:hover {
+            color: @greenColor;
+        }
+    }
+
+    .form-inline {
+        & input {
+            border-radius: 20px;
+        }
+
+        & button {
+            border-radius: 20px;
+            background-color: #86C232;
+        }
+
+        & button:hover {
+            background-color: #61892F;
+        }
+    }
+
+    .form-inline {
+        & input:focus {
+            border: 1px solid @greenColor;
+        }
+    }
+
+    .blog-list-item {
+        & a {
+            text-decoration: none;
+            color: #86C232;
+        }
+    
+        & a:hover {
+            color: #61892F;
+        }
+    }
+
+    .outer-wrap-footer {
+        background: @greyColor;
+    }
+
+    .footer-column {
+        color: @greenColor;
+
+        h4 {
+            color: #FFF;
+        }
+
+        ul a {
+            color: @greenColor;
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+
+    .site-footer {
+        .column(24);
+        padding-bottom: 10px;
+        color: @greenColor;
+        text-align: center;
+    
+        a {
+            color: @greenColor;
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+
+    .rm-desktop a {
+        color: @greenColor;
+
+        &:hover {
+            color: #FFF;
+        }
     }
 }

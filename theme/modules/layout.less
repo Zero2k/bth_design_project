@@ -16,8 +16,8 @@
 @gradient-start: linear-gradient(to top, #47d5fd, #38bffe, #51a6f9);
 @gradient-end: linear-gradient(to bottom, #51a6f9, #758ae9, #956bcd);
 
-@gradient: linear-gradient(45deg, rgba(163, 64, 255, 0.9) 0%, rgba(163,64,255,0.9) 20%, rgba(163,64,255,0.9) 12%, rgba(255,58,81,0.9) 85%, rgba(255,58,81,0.9) 91%, rgba(255,58,81,0.9) 100%),
-url(https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1400);;
+@gradient: linear-gradient(45deg, rgba(163, 64, 255, 0.9) 40%, rgba(163,64,255,0.9) 20%, rgba(163,64,255,0.9) 12%, rgba(255,58,81,0.9) 85%, rgba(255,58,81,0.9) 91%, rgba(255,58,81,0.9) 100%),
+url(https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1400);
 
 body {
     background-color: white;
@@ -49,8 +49,10 @@ body {
     justify-content: center;
 }
 
-.hover:hover {
-    color: #505050;
+.hover {
+    i:hover {
+        color: #505050;
+    }
 }
 
 .column-one-half {
@@ -141,13 +143,23 @@ body {
     .navbar2 {
         .column(16);
         text-align: right;
-        color: white;
+        color: #fff;
         margin-top: 5px;
     }
 }
 
 .main {
     .column(24);
+}
+
+.form-inline {
+    & input:focus {
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
 }
 
 .wrap-all {
@@ -193,7 +205,7 @@ body {
 }
 
 .breadcrumb-list li a:hover {
-    color: #FFF !important;
+    color: #fff !important;
     text-decoration: underline;
 }
 
@@ -212,7 +224,7 @@ body {
 
 .footer-column {
     .column(@columns / 3);
-    color: white;
+    color: #fff;
     line-height: 30px;
 
     ul {
@@ -225,14 +237,14 @@ body {
     }
 
     ul a {
-        color: #FFF;
+        color: #fff;
     }
 }
 
 .footer-column-wrapper {
     display: flex;
     flex-flow: row wrap;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
 
     margin-bottom: @magicNumber;
     padding-bottom: @magicNumber;
@@ -245,11 +257,11 @@ body {
 .site-footer {
     .column(24);
     padding-bottom: 10px;
-    color: white;
+    color: #fff;
     text-align: center;
 
     a {
-        color: white;
+        color: #fff;
     }
 
     ul {
