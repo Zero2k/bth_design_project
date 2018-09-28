@@ -18,7 +18,7 @@ return [
             "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Dev Corp",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "favicon"       => "img/favicon/favicon_100x100.png",
 
             // Style and stylesheets
             /* "stylesheets" => ["css/default.min.css"], */

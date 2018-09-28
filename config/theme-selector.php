@@ -44,11 +44,5 @@ return [
                 "css/style2.min.css"
             ]
         ],
-
-        "dark"      => [
-            "title"      => "Dark background and light text",
-            "class"      => "dark",
-            "stylesheets" => []
-        ],
     ]
 ];

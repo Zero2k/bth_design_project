@@ -8,28 +8,11 @@ CoinOverflow.com
 ==================================
 
 <figure class="figure right">
-    <img src="img/dbwebbisar.jpg?w=200&h=150&a=0,20,20,50&cf" alt=""/>
+    <img src="https://raw.githubusercontent.com/Zero2k/bth_ramverk1_project/master/screenshots/screenshot_alt2.jpeg" alt=""/>
 </figure>
 
-Se hur de små dbwebbisarna hoppar runt i trädet.
+This website is part of the last assignment in the course ramverk1 at BTH. coinOverflow is a fully functioning forum with inspiration from stackoverflow and reddit.
 
 <!--more-->
 
-Var kommer de ifrån? {#var}
------------------------------------
-
-<figure class="figure">
-<a href="image/dbwebbisar.jpg"><img src="image/dbwebbisar.jpg?w=700" alt="Här är en liten del av den större planschen."/></a>
-<figcaption markdown=1>Här är en liten del av den större planschen.</figcaption>
-</figure>
-
-Det är [Anna på Montage](http://montage.se/) som ritade dem en gång i tiden till en plansch.
-
-Planschen ser i sin helhet ut så här, klicka på den för att komma till bilden som fungerar utmärkt som bakgrundsbild på din desktop dator.
-
-<figure class="figure">
-<a href="https://dbwebb.se/img/dbwebb.jpg"><img src="https://dbwebb.se/img/dbwebb.jpg?w=700" alt="Den stora planschen."/></a>
-<figcaption markdown=1>Den stora planschen.</figcaption>
-</figure>
-
-Håll till godo!
+https://github.com/Zero2k/bth_ramverk1_project

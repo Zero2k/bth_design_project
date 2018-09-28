@@ -16,7 +16,7 @@ GraphQL is the rising star of backend technologies. It replaces REST as an API d
 
 <!--more-->
 
-###Overview {#overview}
+### Overview {#overview}
 
 In this tutorial, you’ll learn how to build an idiomatic GraphQL server entirely from scratch. You are going to use the following technologies:
 
@@ -32,7 +32,7 @@ In this tutorial, you’ll learn how to build an idiomatic GraphQL server entire
     * provides an editor where you can write queries, mutations & subscriptions, with auto-completion(!) and syntax highlighting.
     * lets you easily share your API operations.
 
-###What to expect {#expect}
+### What to expect {#expect}
 
 The goal of this tutorial is to build an API for a Hacker News clone. Here is a quick rundown of what to expect in this tutorial.
 

@@ -23,3 +23,7 @@ Dev Corp is a leading consulting and software development company operating worl
 </div>
 
 ### About the project
+
+The purpose of this project is to create a website for Bew Gorp and where he can showcase his skills and earlier work which is related to web development. The site consist of three unique themes and the main focus of the site is to display what types of services that Bew Gorp has to offer.
+
+Since the page is just a prototype, most of the content is just added to fill out the page in order to show how the page could be structured.
