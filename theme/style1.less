@@ -9,7 +9,25 @@
 @maxWidth: 950px;
 @maxWidthPercent: 100%;
 
+@gradient: linear-gradient(45deg,rgba(73, 214, 253, 0.9) 5%,rgba(57, 191, 254, 0.9) 10%,rgba(82, 165, 248, 0.9) 15%,rgba(82, 165, 248, 0.9) 85%,rgba(118, 139, 233, 0.9) 91%,rgba(80, 71, 216, 0.9) 100%),url(https://eusbf10p4zh1kzrai2rg2qyf-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/FEATURED_An-Overview-of-the-Top-7-Software-Development-Methodologies-1080x675.jpeg);
+
+@gradient2: linear-gradient(45deg,#47d5fd 5%,#38bffe 10%,#51a6f9 15%,#51a6f9 85%,#758ae9 100%);
+
 html.custom {
+    body {
+        background-color: white;
+        font-family: "Open Sans";
+    }
+
+    a {
+        text-decoration: none;
+        color: #303030;;
+
+        &:hover {
+            color: #cecece;
+        }
+    }
+
     .wrap-all {
         background-color: #eaeaea;
     }
@@ -29,13 +47,14 @@ html.custom {
     .outer-wrap-header {
         position: unset;
         width: @maxWidth;
-        background: linear-gradient(45deg,rgba(163,64,255,.9) 0,rgba(163,64,255,.9) 20%,rgba(163,64,255,.9) 12%,rgba(255,58,81,.9) 85%,rgba(255,58,81,.9) 91%,rgba(255,58,81,.9) 100%),url(https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1400);
+        background: @gradient2;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
         margin: 0 auto;
     }
 
     .outer-wrap-breadcrumb {
         width: @maxWidth;
+        background: @gradient2;
         margin: 0 auto;
     }
 
@@ -61,6 +80,38 @@ html.custom {
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 auto;
+    }
+
+    .form-inline {
+        & button {
+            background-color: #47d5fd;
+        }
+
+        & button:hover {
+            background-color: #51a6f9;
+        }
+    }
+
+    .blog-list-item {
+        & a {
+            text-decoration: none;
+            color: #47d5fd;
+        }
+    
+        & a:hover {
+            color: #51a6f9;
+        }
+    }
+
+    .share {
+        & a {
+            text-decoration: none;
+            color: #47d5fd;
+        }
+    
+        & a:hover {
+            color: #51a6f9;
+        }
     }
 
     html.min-width.vgrid {
