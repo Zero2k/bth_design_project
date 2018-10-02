@@ -13,6 +13,9 @@
 
 @gradient2: linear-gradient(45deg,#47d5fd 5%,#38bffe 10%,#51a6f9 15%,#51a6f9 85%,#758ae9 100%);
 
+@blueColor: #47d5fd;
+@darkBlueColor: #51a6f9;
+
 html.custom {
     body {
         background-color: white;
@@ -82,35 +85,41 @@ html.custom {
         margin: 0 auto;
     }
 
+    .hover {
+        i:hover {
+            color: @blueColor;
+        }
+    }
+
     .form-inline {
         & button {
-            background-color: #47d5fd;
+            background-color: @blueColor;
         }
 
         & button:hover {
-            background-color: #51a6f9;
+            background-color: @darkBlueColor;
         }
     }
 
     .blog-list-item {
         & a {
             text-decoration: none;
-            color: #47d5fd;
+            color: @blueColor;
         }
     
         & a:hover {
-            color: #51a6f9;
+            color: @darkBlueColor;
         }
     }
 
     .share {
         & a {
             text-decoration: none;
-            color: #47d5fd;
+            color: @blueColor;
         }
     
         & a:hover {
-            color: #51a6f9;
+            color: @darkBlueColor;
         }
     }
 
