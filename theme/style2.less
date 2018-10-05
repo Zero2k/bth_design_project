@@ -17,6 +17,9 @@ url(https://eusbf10p4zh1kzrai2rg2qyf-wpengine.netdna-ssl.com/wp-content/uploads/
 @greenColor: #86C232;
 @darkgreenyColor: #61892F;
 
+@transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+@borderRadius: 20px;
+
 html.alternative {
     body {
         background-color: white;
@@ -35,6 +38,12 @@ html.alternative {
 
     .wrap-all {
         background-color: #535353;
+    }
+
+    header {
+        h1 {
+            color: #86C232;
+        }
     }
 
     .inner-wrap.inner-wrap-header {
@@ -66,17 +75,21 @@ html.alternative {
     .hover {
         i:hover {
             color: @greenColor;
+            text-shadow: 0 0 10px rgba(0,0,0,0.24);
+            transition: @transition;
         }
     }
 
     .form-inline {
         & input {
-            border-radius: 20px;
+            border-radius: @borderRadius;
         }
 
         & button {
-            border-radius: 20px;
+            border-radius: @borderRadius;
             background-color: #86C232;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: @transition;
         }
 
         & button:hover {
@@ -91,13 +104,19 @@ html.alternative {
     }
 
     .blog-list-item {
-        & a {
+        & .readmore a {
             text-decoration: none;
-            color: #86C232;
+
+            border-radius: @borderRadius;
+            background-color: #86C232;
+            color: #fff;
+            padding: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: @transition;
         }
     
-        & a:hover {
-            color: #61892F;
+        & .readmore a:hover {
+            background-color: #61892F;
         }
     }
 
@@ -141,6 +160,7 @@ html.alternative {
 
         &:hover {
             color: #FFF;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
     }
 }
